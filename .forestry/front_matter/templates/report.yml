@@ -1,4 +1,9 @@
 ---
 label: Report
 hide_body: true
-fields: []
+fields:
+- name: pdf_url
+  type: file
+  config:
+    maxSize: 250
+  label: PDF url
