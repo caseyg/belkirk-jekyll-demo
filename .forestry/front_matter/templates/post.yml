@@ -38,3 +38,27 @@ fields:
   type: text
   hidden: true
   default: post
+- name: colophon
+  type: field_group_list
+  fields:
+  - name: person
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: people
+        file: 
+        path: 
+    label: Person
+  - name: role
+    type: tag_list
+    default: []
+    label: Role
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Colophon
