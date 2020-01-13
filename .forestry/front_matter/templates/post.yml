@@ -60,5 +60,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: person
   label: Colophon
