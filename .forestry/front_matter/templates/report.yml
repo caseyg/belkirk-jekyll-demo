@@ -7,3 +7,5 @@ fields:
   config:
     maxSize: 250
   label: PDF url
+pages:
+- _reports/netlify-whitepaper.md
